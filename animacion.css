@@ -1,0 +1,63 @@
+#aviso {
+	width: 150px;
+	height: 50px;
+	position: relative;
+	animation: avisoA 20s ease-out infinite alternate;
+	color: white;
+}
+#aviso >p{
+	font: 20px "algerian";
+	color: white;
+	text-align: center;
+}
+#aviso:hover{
+	animation-play-state:paused;
+}
+@keyframes avisoA {
+	0% { left: 0px; background-color:blue}
+	100% { left: 98%;background-color:green }
+}
+#info{
+	width:50px;
+	height:30px;
+	background-color: pink;
+	color:white;
+	font-size:8px;
+	transition-property: all;
+	transition-duration: 2s;
+}
+#info:hover{
+	width: 200px;
+	height:50px;
+	font-size: 22px;
+}
+
+@keyframes htmlA { 
+	0% { left: 0px; transform: rotate(0deg) scale(1,1); filter: hue-rotate(1deg) }
+	25% { left: 400px; transform: rotate(45deg) scale(0.5,0.5); filter: hue-rotate(60deg) }
+	50% { left: 800px; transform: rotate(90deg) scale(2,2); filter: hue-rotate(120deg) }
+}
+#html {
+	width: 160px;
+	position: relative;
+	animation: htmlA 5s linear infinite normal;
+}
+#html:hover{
+	animation-play-state: paused;
+}
+@keyframes canvaA {
+	0%{ left: 0px; filter:hue-rotate(1deg) }
+	50%{left: 500px; filter:hue-rotate(90deg) }
+	100% { left: 1000px; filter:hue-rotate(180deg) }
+}
+#pjsCanvas{
+	display: flex;
+	width: 90px;
+	position: relative;
+	animation: canvaA 25s linear infinite alternate;
+}
+#pjsCanvas:hover{
+	animation-play-state: paused;
+	transform: scale(3,3) rotate(45deg);
+
+}

@@ -1,0 +1,95 @@
+header {
+    color: pink;
+    background-color: #69335D;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    color: pink;
+    background-color: #9E6291;
+}
+
+p {
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: purple;
+}
+
+footer {
+    color: yellow;
+    background-color: #D3CB37;
+    text-align: center;
+    font-size: 15px;
+}
+
+.vamosaensayar {
+    font-family: "Bahnschrift Semibold";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: teal;
+    text-align: center;
+    text-decoration: underline wavy teal;
+    text-shadow: 2px 2px 4px #191970;
+    line-height: 1.5;
+}
+
+#menuhorizontal ul {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #E4E4E4;
+}
+
+#menuhorizontal ul li {
+	display: inline;
+	padding: 2px 7px; 
+	margin: 5px; 
+	background-color: #800080;
+	color: white;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+}
+
+#menuhorizontal ul li:hover {
+	background-color: #CCCCCC; 
+	cursor: pointer; 
+}
+
+#menuhorizontal ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+#menuD a{ 
+	text-decoration:none;
+	color:inherit;
+}
+#menuD ul li{
+	width:100px;
+	height:25px;
+	display: inline-block;
+	padding: 2px 7px;
+	margin: 5px;
+	background-color:#800080;
+	color: white;
+	text-align:center;
+	font-family:"comic sans Ms";
+	font-size:16px;
+	position:relative;
+}
+#menuD ul li:hover{
+	background-color:grey;
+	color:purple;
+}
+#menuD li>ul{
+	display:none;
+}
+#menuD li:hover>ul{ 
+	display:inline-block;
+	position:absolute;
+}
+#menuD ul>li:hover>ul{
+	display:inline-block;
+	position:absolute;
+}
